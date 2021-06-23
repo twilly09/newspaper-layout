@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+   margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    background-image: url('./images/news2.jpg');
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+#main_header {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 35px;
+    margin-top: 70px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+}
+
+#main_header > .barcode {
+    position: absolute;
+    width: 180px;
+    left: 30px;
+    top: 50px;
+}
+
+#main_header > .header_group {
+    text-align: center;
+}
+
+.header_group .sub-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+#main_header > .time {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+
+.header_group .sub-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header_group > h1 {
+    font-size: 75px;
+    line-height: 76px;
+    margin-bottom: 0.5rem; /* 기본 글자1칸 크기 */
+}
+
+.header_group .copy {
+    text-transform: uppercase;
+    font-size: small;
+    color: #333;
+}
+
+.time {
+    font-size: 2em;
+    text-align: right;
+}
+
+.date {
+    letter-spacing: 1.3px;
+    font-size: 30px;
+
+}
+
+.day {
+    padding-top: 15px;
+    font-size: 30px;
+    margin: 0;
+}
+
+#gnb {
+    width: 1400px;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    border-bottom: 3px solid #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #fff;
+}
+
+#gnb ul {
+    overflow: hidden;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#gnb ul li {
+    float: left;
+    width: calc(100% / 5);
+    text-align: center;
+    border-left: 1px solid #000; 
+    /* outline: 1px solid red */;   
+}
+
+#gnb ul li:last-child {
+    border-right: 1px solid #000;
+}
+
+#gnb ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#contents {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border: 1px solid #dfdfdf;
+    column-count: 3;
+}
+
+article {
+    break-after: column;
+}
+
+article p {
+    line-height: 1.8;
+}
+
+article img {
+    width: 100%;
+}
+
+.today img {
+    width: 100px;
+}
+
+article:first-child h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+article:nth-child(2) h2 span {
+    font-weight: normal;
+}
+
+.arrow {
+    font-size: small;
+    color: red;
+}
+
+.more_btn {
+    text-transform: uppercase;
+    color: #444;
+    margin-left: 1em;
+}
+
+.banner1 > a > img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 435px;
+    height: 140px;
+}
+
+#sidebar > .banner2 > a > img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 435px;
+    height: 140px;
+}
+
+#sidebar figure {
+    position: relative;
+    padding: 1.5em 2.5em;
+    border: 2px solid #000;
+}
+
+#sidebar figure h3 {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.3px;
+}
+
+#sidebar figure img {
+    width: 350px;
+    height: 230px;
+}
+
+hr {
+    color: #ccc;
+    background: #ccc;
+    border-width: 0;
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left_btn, .right_btn {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+}
+
+.left_btn {
+    bottom: 200px;
+    left: 10px;
+}
+
+.right_btn {
+    bottom: 200px;
+    right: 10px;
+}
+
+#sidebar .today {
+    border-bottom: 1px solid #000;
+    padding-bottom: 1em;
+}
+
+#sidebar > .today > a {
+    display: block;
+    overflow: hidden;
+}
+
+#sidebar > .today > a img {
+    float: left;
+}
+
+#sidebar > .today > a > .info {
+    float: left;
+    padding-top: 0.6em;
+    padding-left: 1em;
+}
+
+#sidebar > .today > a > .info > p {
+    margin: 0;
+}
+
+#sidebar .info > p.name > span {
+    font-size: 1.2em;
+}
+ 
+#sidebar h4 {
+    margin-top: 10px;
+}
+
+.notice ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    color: red;
+}
+
+.notice ul li {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+

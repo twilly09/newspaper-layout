@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Paper Style Layout</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <!-- fontawesome4-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+</head>
+<body>
+    <header id="main_header">
+        <img src="./images/barcode1.png" alt="바코드" class=" barcode">
+        <div class="header_group">
+            <p class="sub-title"> IWEBDY TIMES </p>
+            <h1 class> WEB DESIGN NEWS </h1>
+            <p class="copy"> dongbang 2f, seogyodong 330-28, mapogu, seoul korea / copyright&copy; 2001~2021 iwebdy all right reserved</p>
+        </div>
+        <div class="time fw500">
+            <p class="day">MONDAY</p>
+            <p class="date fw900">20210621</p>            
+        </div>
+    </header>
+    <nav id="gnb">
+        <ul>
+            <li><a href="#">webdy report</a></li>
+            <li><a href="#">e creative website</a></li>
+            <li><a href="#">good design site</a></li>
+            <li><a href="#">webdesign trand</a></li>
+            <li><a href="#">webdy academy</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="contents">
+    <article>
+        <h2>
+            MOVIE<br>WEBSITE<br>TRAND
+        </h2>
+        <p>인간은 생의 발휘하기 우리 전인 하는 내려온 것이다. 피어나기 청춘 찾아 과실이 아름다우냐? 가치를 뜨고, 가는 꾸며 착목한는 현저하게 있다. 끓는 청춘 되는 아니다. 내려온 열매를 끝에 힘있다.
+            뜨거운지라, 평화스러운 우리 싸인 때문이다. </p>
+        <p>인생의 뜨거운지라, 가는 것이다.보라, 그들의 불어 부패뿐이다. 힘차게 커다란 살았으며, 인생에 뛰노는 따뜻한 열락의 아니다. 하여도 창공에 이상 봄바람이다.</p>
+           
+        <p>이것이야말로 것이 우리 하는 열락의 이것이다. 찾아다녀도, 광야에서 청춘 방지하는 길을 아니더면, 목숨이 있다. 풍부하게 날카로우나 그들을 간에 두손을 이성은 같은 것이다. 그들을 간에 두손을 이성은 같은 것이다.
+           <a href="#" class="more_btn">more <span class="arrow">▶</span></a>
+        </p>
+        <div class="banner1">
+            <a href="#">
+                <img src="./images/design2.png" alt="banner1">
+            </a>
+        </div>
+    </article>
+    <article>
+        <img src="./images/animation4.gif" alt="타이틀 기사 이미지">
+        <h2>interactive media<span>의 세계</span></h2>
+        <p>인터랙티브 미디어란 무엇일까요? <br> INTERACT, 즉 상호작용하는. 사용자의 동작에 반응하는 디지털 매체라고 설명할 수 있습니다. 
+        용어를 들으면 생소하고 어떤 건지 잘 모르겠죠? 인터랙티브 미디어는 우리 생활 속에 정말 많답니다~ 스마트폰, 터치스크린, 디스플레이 광고판 등등 그런 것들 모두 사용자에 의해서 이용할 수 있기 때문에 인터랙티브 미디어라고 할 수 있습니다.</p>
+        <p>Interactive media is a method of communication in which the output from the media comes from the input of the users.[1][2] Interactive media works with the user's participation. user's input adds interaction and brings interesting features to the system for better enjoyment.
+        <a href="#" class="more_btn">more <span class="arrow">▶</span></a>
+        </p>        
+    </article>
+    <article id="sidebar">
+        <figure>
+            <a class="siteLink" href="#"></a>
+                <h3>GOOD DESIGN SITE</h3>
+                <img src="images/main.jpg" alt="SWAB THE WORLD">
+                <hr>
+                <figcaption>
+                    <span class="url">htps://swabtheworld.com/fr/</span><br>
+                    <span class="home_title">SWAB THE WORLD</span></figcaption>
+            </a>
+            <a href="#" class="left_btn" onclick="prevSiteInfo();"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+            <a href="#" class="right_btn" onclick="nextSiteInfo();"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+        </figure>
+        <div class="today">
+            <a href="#">
+                <h4><span class="fw400">오늘의</span> 추천명함</h4>
+                <img src="images/card.gif" alt="프리랜서 스타일리스트 홍길동">
+                <div class="info">
+                    <p class="fw500 name">프리랜서 스타일리스트 <span>홍길동</span></p>
+                    <p class="email">honggil@troiv.com</p>
+                </div>
+            </a>
+        </div>
+    <div class="notice">
+        <h4><span class="fw400">오늘의</span> 세미나 </h4>
+        <ul>
+            <li><a href="#">웹 디자이너를 위한 실전 CSS</a></li>
+            <li><a href="#">웹크리에이티브 디렉터 세미나</a></li>
+            <li><a href="#">파워 프리젠테이션 스킬업 워크샵</a></li>
+            <li><a href="#">차세대 데이터센터 구현을 위한 온라인 세미나</a></li>
+            <li><a href="#">비즈니스 글쓰기 전략 워크샵</a></li>
+        </ul>
+    </div>
+        <div class="banner2">
+            <a href="#">
+                <img src="images/clover.png" alt="clover" id="img1">
+            </a>
+        </div>
+    </article>
+    </section>
+    <script>
+        $(function(){
+         $("#img1").hover(
+       function(){
+         $(this).attr("src","images/clover2.gif");
+       },
+       function() {
+         $(this).attr("src","images/clover.png");
+       }
+     );
+   });
+    </script>
+
+<script src="main.js"></script>
+</body>
+</html>
